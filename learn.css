@@ -31,6 +31,7 @@ div#main-container > div > div > div {
 	bottom: 0;
 	right: 0;
 	left: 0;
+	opacity: 0.95;
 }
 
 div#main-container > div > div > h1 {
@@ -38,7 +39,7 @@ div#main-container > div > div > h1 {
 	transform: translate(-50%, -50%);
 	top: 50%;
 	left: 50%;
-	background-color: #4E3C3B;
+	background-color: #F97900;
 }
 
 div#main-container > div > div > h2 {
@@ -46,7 +47,7 @@ div#main-container > div > div > h2 {
 	transform: translate(-50%, -50%);
 	top: 50%;
 	left: 50%;
-	background-color: #4E3C3B;
+	background-color: #F97900;
 }
 
 @media only screen and (max-width: 720px) {

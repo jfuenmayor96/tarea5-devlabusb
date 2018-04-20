@@ -23,3 +23,7 @@ div#main-container {
 h3#recent, h3#developing, h3#not-started {
 	padding-top: 6rem;
 }
+
+div.card-header.bg-primary > h5::selection {
+	background: red;
+}

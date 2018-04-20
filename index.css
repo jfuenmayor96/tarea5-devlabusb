@@ -7,5 +7,14 @@ body {
 /* CONTENIDO PRINCIPAL */
 
 div#main-container {
-	padding-top: 7rem;
+	padding-top: 6rem;
+	height: 90vh;
+}
+
+div#main-container > div > div > div > h1 {
+	background-color: #F97900;
+}
+
+div#main-container > div > div > div > h2 {
+	background-color: #F97900;
 }
