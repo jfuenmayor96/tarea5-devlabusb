@@ -1,0 +1,56 @@
+/* GENERAL */
+
+body {
+	padding-top: 0;
+	padding-bottom: 4rem;
+}
+
+p {
+	margin-bottom: 2.5rem;
+}
+
+/* CONTENIDO PRINCIPAL */
+
+div#main-container {
+	padding-top: 3.4rem;
+}
+
+div#main-container > div > div {
+	z-index: 1;
+	height: 81vh;
+}
+
+div#main-container > div > div > div {
+	background-image: url("http://projectmanagementhacks.com/wp-content/uploads/2015/09/Books-and-Laptop.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	z-index: -1;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+div#main-container > div > div > h1 {
+	text-align: center;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	background-color: #4E3C3B;
+}
+
+div#main-container > div > div > h2 {
+	text-align: center;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	background-color: #4E3C3B;
+}
+
+@media only screen and (max-width: 720px) {
+	div#main-container > div > div > h2 {
+		width: 70%;
+	}
+}

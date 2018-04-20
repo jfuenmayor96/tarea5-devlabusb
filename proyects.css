@@ -1,9 +1,5 @@
 /* GENERAL */
 
-h2, h3 {
-	font-family: 'Anton', sans-serif;
-}
-
 ul {
 	padding-left: 1.5rem;
 }
@@ -15,7 +11,7 @@ hr {
 
 body {
 	padding-top: 0;
-	padding-bottom: 14rem;
+	padding-bottom: 10rem;
 }
 
 /* CONTENIDO PRINCIPAL */

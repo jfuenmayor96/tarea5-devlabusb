@@ -1,7 +1,13 @@
 /* GENERAL */
 
-h2 {
+h2, h3, h4, h5 {
 	font-family: 'Anton', sans-serif;
+	text-transform: uppercase;
+}
+
+h5 button {
+	letter-spacing: 0.15rem;
+	text-transform: uppercase;
 }
 
 p {
@@ -10,12 +16,16 @@ p {
 
 /* CONTENIDO PRINCIPAL */
 
-#main-container {
+div#main-container {
 	margin-top: 1.5rem;
 }
 
-#main-container > div > div > h2 {
+div#main-container > div > div > h2 {
 	margin-bottom: 2rem;
+}
+
+div.card-header {
+	background-color: #1B4E94;
 }
 
 /* PIE DE PÁGINA */

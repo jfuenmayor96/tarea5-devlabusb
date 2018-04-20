@@ -17,8 +17,8 @@
 
   <!--HOJAS DE ESTILO LOCALES-->
 
-  <link rel="stylesheet" type="text/css" href="main.css">
-  <link rel="stylesheet" type="text/css" href="about.css">
+  <link rel="stylesheet" type="text/css" href="./main.css">
+  <link rel="stylesheet" type="text/css" href="./about.css">
 
   <!--FUENTES DE GOOGLE FONTS-->
 
@@ -54,15 +54,8 @@
           <li class="nav-item">
             <a class="nav-link" href="proyects.html">Proyectos</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle disabled" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Aprende
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">HTML</a>
-              <a class="dropdown-item" href="#">CSS</a>
-              <a class="dropdown-item" href="#">JavaScript</a>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="./learn.html">Aprende</a>
           </li>
         </ul>
       </div>
@@ -73,15 +66,15 @@
     <div class="container" id="main-container">
       <div class="row">
         <div class="col-12">
-          <h2 class="text-center">¿Qué quieres saber?</h2>
+          <h2 class="text-center pt-3 pb-2">¿Qué quieres saber?</h2>
         </div>
       </div>
       <div class="row">
         <div class="col-12">
           <div id="accordion">
             <div class="card">
-              <div class="card-header bg-info" id="history-heading">
-                <h5 class="mb-0">
+              <div class="card-header" id="history-heading">
+                <h5 class="mb-0 text-center">
                   <button class="btn btn-link text-white" data-toggle="collapse" data-target="#history-content" aria-expanded="true" aria-controls="history-content">
                     Historia
                   </button>
@@ -96,10 +89,10 @@
               </div>
             </div>
             <div class="card">
-              <div class="card-header bg-info" id="mision-heading">
-                <h5 class="mb-0">
+              <div class="card-header" id="mision-heading">
+                <h5 class="mb-0 text-center">
                   <button class="btn btn-link collapsed text-white" data-toggle="collapse" data-target="#mision-content" aria-expanded="false" aria-controls="mision-content">
-                    Misión
+                    Mision
                   </button>
                 </h5>
               </div>
@@ -112,10 +105,10 @@
               </div>
             </div>
             <div class="card">
-              <div class="card-header bg-info" id="admision-heading">
-                <h5 class="mb-0">
+              <div class="card-header" id="admision-heading">
+                <h5 class="mb-0 text-center">
                   <button class="btn btn-link collapsed text-white" data-toggle="collapse" data-target="#admision-content" aria-expanded="false" aria-controls="admision-content">
-                    Admisión
+                    Admision
                   </button>
                 </h5>
               </div>
@@ -128,8 +121,8 @@
               </div>
             </div>
             <div class="card">
-              <div class="card-header bg-info" id="contact-heading">
-                <h5 class="mb-0">
+              <div class="card-header" id="contact-heading">
+                <h5 class="mb-0 text-center">
                   <button class="btn btn-link collapsed text-white" data-toggle="collapse" data-target="#contact-content" aria-expanded="false" aria-controls="contact-content">
                     Contacto
                   </button>
@@ -154,7 +147,7 @@
       <div class="row">
         <div class="col-4 offset-4">
           <p class="text-white text-center mt-0 mb-0 pt-2">
-            Copyright
+            &#169; Copyright
           </p>
         </div>
         <div class="col-4">
