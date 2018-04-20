@@ -1,0 +1,11 @@
+/* GENERAL */
+
+body {
+	padding-top: 0;
+}
+
+/* CONTENIDO PRINCIPAL */
+
+div#main-container {
+	padding-top: 7rem;
+}

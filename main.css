@@ -1,0 +1,21 @@
+/* GENERAL */
+
+p, li, a {
+  font-family: 'Nunito', sans-serif;
+}
+
+p {
+  text-align: justify;
+  margin-top: 1.3rem;
+}
+
+body {
+  padding-top: 3.5rem;
+  padding-bottom: 6rem;
+}
+
+/* NAVEGACIÓN */
+
+nav > a {
+  font-family: 'Anton', sans-serif;
+}

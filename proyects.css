@@ -1,0 +1,29 @@
+/* GENERAL */
+
+h2, h3 {
+	font-family: 'Anton', sans-serif;
+}
+
+ul {
+	padding-left: 1.5rem;
+}
+
+hr {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+body {
+	padding-top: 0;
+	padding-bottom: 14rem;
+}
+
+/* CONTENIDO PRINCIPAL */
+
+div#main-container {
+	padding-top: 6rem;
+}
+
+h3#recent, h3#developing, h3#not-started {
+	padding-top: 6rem;
+}
