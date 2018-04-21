@@ -2,7 +2,7 @@
 	margin-top: 10px;
 }
 
-main>.row{
+#main>.row{
 	display: flex;
 	justify-content: center; /* align horizontal */
 	align-items: center;
@@ -28,11 +28,11 @@ img{
 		width: 250px;
 	}
 
-	.row{
+	#main>.row{
 		padding: 1.8rem;
 	}
 
-	p{
+	.col-sm-6>p{
 		font-size: 1em;
 	}
 
