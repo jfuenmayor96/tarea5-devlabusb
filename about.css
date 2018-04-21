@@ -21,19 +21,39 @@ body {
 /* CONTENIDO PRINCIPAL */
 
 div#main-container {
-	padding-top: 4rem;
+	padding-top: 7.5rem;
 }
 
 div#main-container > div > div > h2 {
 	margin-bottom: 2rem;
 }
 
-div.card-header {
-	background-color: #1B4E94;
-}
-
 /* PIE DE PÁGINA */
 
 footer > div > div > p {
 	margin-top: 1.3rem;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 450px) {
+	div#main-container {
+		padding-top: 4.5rem;
+	}
+}
+
+@media only screen and (min-width: 411px) and (min-height: 731px) {
+	html, body {
+		min-height: 100vh;
+	}
+}
+
+@media only screen and (min-width: 640px) and (min-height: 360px) {
+	div#main-container {
+		padding-top: 4.5rem;
+	}
+}
+
+@media only screen and (min-width: 568px) and (min-height: 320px) {
+	div#main-container {
+		padding-top: 4.5rem;
+	}
 }

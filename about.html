@@ -4,6 +4,14 @@
 
 <head>
 
+  <!--TÍTULO-->
+
+  <title>DevLab | About</title>
+
+  <!--FAVICON-->
+
+  <link rel="icon" href="laptop.png">
+
   <!--META DATA-->
 
   <meta charset="utf-8">
@@ -30,7 +38,7 @@
 
 </head>
 
-<body>
+<body class="position-relative">
 
   <!--CONTENEDOR PRINCIPAL-->
 
@@ -73,13 +81,13 @@
         <div class="col-12">
           <div id="accordion">
             <div class="card">
-              <div class="card-header" id="history-heading">
-                <h5 class="mb-0 text-center">
-                  <button class="btn btn-link text-white" data-toggle="collapse" data-target="#history-content" aria-expanded="true" aria-controls="history-content">
+              <button class="btn btn-primary text-white p-0" data-toggle="collapse" data-target="#history-content" aria-expanded="true" aria-controls="history-content">
+                <div class="card-header" id="history-heading">
+                  <h5 class="mb-0 text-center">
                     Historia
-                  </button>
-                </h5>
-              </div>
+                  </h5>
+                </div>
+              </button>
               <div id="history-content" class="collapse show" aria-labelledby="history-heading" data-parent="#accordion">
                 <div class="card-body">
                   <p>
@@ -89,13 +97,13 @@
               </div>
             </div>
             <div class="card">
-              <div class="card-header" id="mision-heading">
-                <h5 class="mb-0 text-center">
-                  <button class="btn btn-link collapsed text-white" data-toggle="collapse" data-target="#mision-content" aria-expanded="false" aria-controls="mision-content">
+              <button class="btn btn-primary collapsed text-white p-0" data-toggle="collapse" data-target="#mision-content" aria-expanded="false" aria-controls="mision-content">
+                <div class="card-header" id="mision-heading">
+                  <h5 class="mb-0 text-center">
                     Mision
-                  </button>
-                </h5>
-              </div>
+                  </h5>
+                </div>
+              </button>
               <div id="mision-content" class="collapse" aria-labelledby="mision-heading" data-parent="#accordion">
                 <div class="card-body">
                   <p>
@@ -105,13 +113,13 @@
               </div>
             </div>
             <div class="card">
-              <div class="card-header" id="admision-heading">
-                <h5 class="mb-0 text-center">
-                  <button class="btn btn-link collapsed text-white" data-toggle="collapse" data-target="#admision-content" aria-expanded="false" aria-controls="admision-content">
+              <button class="btn btn-primary collapsed text-white p-0" data-toggle="collapse" data-target="#admision-content" aria-expanded="false" aria-controls="admision-content">
+                <div class="card-header" id="mision-heading">
+                  <h5 class="mb-0 text-center">
                     Admision
-                  </button>
-                </h5>
-              </div>
+                  </h5>
+                </div>
+              </button>
               <div id="admision-content" class="collapse" aria-labelledby="admision-heading" data-parent="#accordion">
                 <div class="card-body">
                   <p>
@@ -121,13 +129,13 @@
               </div>
             </div>
             <div class="card">
-              <div class="card-header" id="contact-heading">
-                <h5 class="mb-0 text-center">
-                  <button class="btn btn-link collapsed text-white" data-toggle="collapse" data-target="#contact-content" aria-expanded="false" aria-controls="contact-content">
+              <button class="btn btn-primary collapsed text-white p-0" data-toggle="collapse" data-target="#contact-content" aria-expanded="false" aria-controls="contact-content">
+                <div class="card-header" id="mision-heading">
+                  <h5 class="mb-0 text-center">
                     Contacto
-                  </button>
-                </h5>
-              </div>
+                  </h5>
+                </div>
+              </button>
               <div id="contact-content" class="collapse" aria-labelledby="contact-heading" data-parent="#accordion">
                 <div class="card-body">
                   <p>
@@ -143,9 +151,9 @@
 
     <!--PIE DE PÁGINA-->
 
-    <footer class="container-fluid fixed-bottom bg-dark pb-3 pt-3">
+    <footer class="container-fluid position-absolute bg-dark pb-3 pt-3">
       <div class="row">
-        <div class="col-4 offset-4">
+        <div class="col-4 offset-4 p-0">
           <p class="text-white text-center mt-0 mb-0 pt-2">
             &#169; Copyright
           </p>
