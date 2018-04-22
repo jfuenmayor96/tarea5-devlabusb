@@ -2,22 +2,31 @@
 	margin-top: 10px;
 }
 
-#main>.row{
+#center{
 	display: flex;
 	justify-content: center; /* align horizontal */
 	align-items: center;
 	padding: 4rem;
 	margin-top: -3rem;
-	border-bottom: 1px solid #ccc;
 }
 
-#img2{
-	width: 80%;
-	height: 60%;
+.row{
+	display: flex;
+	justify-content: center; /* align horizontal */
+	
+	
+	
 }
+
+
+#img2{
+	width: 100%;
+}
+
 
 .col-sm-6>p{
 	font-size: 1.3em;
+	margin-top: 20px;
 }
 
 h1{
@@ -34,7 +43,7 @@ img{
 		width: 250px;
 	}
 
-	#main>.row{
+	#center{
 		padding: 1.8rem;
 	}
 
@@ -43,3 +52,4 @@ img{
 	}
 
 }
+
