@@ -18,12 +18,6 @@ body {
   padding-bottom: 6rem;
 }
 
-@media only screen and (min-width: 1024px) and (min-width: 1366px) {
-	html {
-		font-size: 20px;
-	}
-}
-
 /* NAVEGACIÓN */
 
 nav > a {

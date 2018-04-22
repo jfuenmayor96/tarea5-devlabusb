@@ -13,25 +13,11 @@ p {
 
 div#main-container {
 	padding-top: 3.4rem;
-}
-
-div#main-container > div > div {
-	z-index: 1;
-	height: 81vh;
-}
-
-div#main-container > div > div > div {
 	background-image: url("http://projectmanagementhacks.com/wp-content/uploads/2015/09/Books-and-Laptop.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 100%;
-	z-index: -1;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	opacity: 0.95;
+	min-height: 100vh;	
 }
 
 div#main-container > div > div > h1 {
@@ -39,7 +25,7 @@ div#main-container > div > div > h1 {
 	transform: translate(-50%, -50%);
 	top: 50%;
 	left: 50%;
-	background-color: #F97900;
+	min-width: 80%;
 }
 
 div#main-container > div > div > h2 {
@@ -47,180 +33,5 @@ div#main-container > div > div > h2 {
 	transform: translate(-50%, -50%);
 	top: 50%;
 	left: 50%;
-	background-color: #F97900;
-}
-
-@media only screen and (max-width: 768px) {
-	div#main-container > div > div > h2 {
-		width: 70%;
-	}
-}
-
-@media only screen and (min-width: 414px) and (min-height: 736px) {
-	div#main-container > div > div {
-		height: 83.25vh;
-	}
-}
-
-@media only screen and (min-width: 320px) and (max-width: 450px) {
-	div#main-container > div > div > h2 {
-		font-size: 1.8rem;
-	}
-}
-
-@media only screen and (min-width: 1650px) {
-	div#main-container > div > div {
-		height: 87vh;
-	}
-}
-
-@media only screen and (min-height: 1024px) {
-	div#main-container > div > div {
-		height: 88vh;
-	}
-}
-
-@media only screen and (min-width: 1024px) and (min-height: 1366px) {
-	div#main-container {
-		padding-top: 1rem;
-	}
-	div#main-container > div > div {
-		height: 92.22vh;
-	}
-}
-
-@media only screen and (min-width: 1366px) {
-	div#main-container > div > div {
-		height: 87.6vh;
-	}
-}
-
-@media only screen and (min-width: 1024px) and (min-height: 768px) {
-	div#main-container > div > div {
-		height: 83.75vh;
-	}
-}
-
-@media only screen and (min-width: 640px) and (min-height: 360px) {
-	div#main-container > div > div {
-		height: 84.89vh;
-	}
-}
-
-@media only screen and (min-width: 360px) and (min-height: 640px) {
-	div#main-container > div > div {
-		height: 91.5vh;
-	}
-}
-
-@media only screen and (min-width: 411px) and (min-height: 731px) {
-	div#main-container > div > div {
-		height: 92.56vh;
-	}
-}
-
-@media only screen and (min-width: 731px) and (min-height: 411px) {
-	div#main-container > div > div {
-		height: 86.765vh;
-	}
-}
-
-@media only screen and (min-width: 411px) and (min-height: 823px) {
-	div#main-container > div > div {
-		height: 93.4vh;
-	}
-}
-
-@media only screen and (min-width: 823px) and (min-height: 411px) {
-	div#main-container > div > div {
-		height: 86.764vh;
-	}
-}
-
-@media only screen and (min-width: 320px) and (max-width: 359px) and (min-height: 568px) and (max-height: 639px) {
-	div#main-container > div > div {
-		height: 90.42vh;
-	}
-}
-
-@media only screen and (min-width: 568px) and (max-width: 639px) and (min-height: 320px) and (max-height: 359px) {
-	div#main-container > div > div {
-		height: 83vh;
-	}
-}
-
-
-@media only screen and (min-width: 375px) and (max-width: 410px) and (min-height: 667px) and (max-height: 822px){
-	div#main-container > div > div {
-		height: 91.85vh;
-	}
-}
-
-@media only screen and (min-width: 667px) and (max-width: 822px) and (min-height: 375px) and (max-height: 410px) {
-	div#main-container > div > div {
-		height: 85.5vh;
-	}
-}
-
-@media only screen and (min-width: 414px) and (min-height: 736px) {
-	div#main-container > div > div {
-		height: 92.61vh;
-	}
-}
-
-@media only screen and (min-width: 736px) and (min-height: 414px) {
-	div#main-container > div > div {
-		height: 86.86vh;
-	}
-}
-
-@media only screen and (min-width: 375px) and (max-width: 410px) and (min-height: 812px) and (max-height: 822px) {
-	div#main-container > div > div {
-		height: 93.3vh;
-	}
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1023px) and (min-height: 1024px) and (max-height: 1365px) {
-	div#main-container > div > div {
-		height: 94.6875vh;
-	}
-}
-
-@media only screen and (min-width: 1024px) and (max-width: 1365px) and (min-height: 768px) and (max-height: 1023px) {
-	div#main-container > div > div {
-		height: 92.917vh;
-	}
-}
-
-@media only screen and (min-width: 1024px) and (max-width: 1365px) and (min-height: 1366px) {
-	html {
-		font-size: 16px;
-	}
-	div#main-container {
-		padding-top: 3.4rem;
-	}
-	div#main-container > div > div {
-		height: 96vh;
-	}
-}
-
-@media only screen and (min-width: 1366px) and (min-height: 1024px) and (max-height: 1365px) {
-	html {
-		font-size: 16px;
-	}
-	div#main-container > div > div {
-		height: 94.69vh;
-	}
-}
-
-@media only screen and (min-width: 1440px) and (max-width: 2559px) {
-	div#main-container > div > div {
-		height: 92.917vh;
-	}
-}
-
-@media only screen and (min-width: 2560px) and (min-height: 768px) and (max-height: 1023px) {
-	div#main-container > div > div {
-		height: 92.917vh;
-	}
+	min-width: 80%;
 }
