@@ -16,9 +16,6 @@
 		<!-- Base CSS -->
 		<link rel="stylesheet" href="static/css/base.css">
 
-		<!-- Index CSS -->
-		<link rel="stylesheet" href="static/css/index.css">
-
 		<title>Devlab</title>
 	</head>
 <body>
@@ -36,13 +33,13 @@
 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	    <ul class="navbar-nav ml-auto">
  	      <li class="nav-item active">
-	        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+	        <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
 	      </li>
 	      <li class="nav-item">
 	        <a class="nav-link" href="#">Proyectos</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="nosotros.html">Nosotros</a>
+	        <a class="nav-link" href="#">Nosotros</a>
 	      </li>
 	      <li class="nav-item">
 	        <a class="nav-link" href="#">Membresía</a>
@@ -55,17 +52,73 @@
 	</nav>
 	<!-- ./navbar -->
 
-	<!-- first-content:hero -->
-	<div class="hero-image">
-	  <div class="hero-text">
-	    <p>Somos una agrupación de la Universidad Simón Bolívar que apuesta por la innovación</p>
-	    <button>Hire me</button>
-	  </div>
+	<!-- main-content -->
+	<div class="container-fluid" style="height:100% width: 70%">
+	    <div class="row">
+	        <div class="col-md-12">
+	            <div class="row block">
+	                <div class="col-md-8" style="margin-left: 10px">
+	                    <main id="main" role="main">
+	                        <article>
+	                            <header>
+	                            	<br>
+	                                <h1 class="article-title">Nosotros</h1><br>
+	                            </header> 
+	                            <div class="article-body">
+									<div class="row">
+									<div class="col-md-4" align="center">
+										<img src="static/img/grupo.jpg" style="width: 100%">
+									</div>
+									<div class="col-md-8">
+									<h3>¿Quiénes somos?</h3>
+									<p align="justify">Somos una agrupación estudiantil de la Universidad Simón Bolívar, fundada el 28 de abril del 2014. Nos enfocamos en el aprendizaje y desarrollo de soluciones de Software con nuevas tecnologías web, Android y iOS para aplicarlas en proyectos requeridos por la USB y otros mercados.</p>	
+									</div>
+									</div>
+
+									<div class="row" style="float: left; padding-top: 5%; text-align: justify;">
+										<div class="col-md-4">
+											<img src="static/img/proyecto.jpg" style="width: 100%">
+										</div>
+										<div class="col-md-8">
+											<h3>¿Qué hacemos?</h3>
+											<p align="justify">Trabajamos en proyectos de desarrollo web para las distintas entidades y agrupaciones de la Universidad Simón Bolívar, así como para clientes externos.</p>
+										</div>
+									</div>
+
+									<div class="row" style="float: left; padding-top: 5%; text-align: justify;">
+										<div class="col-md-4">
+											<img src="static/img/trabajo.jpg" style="width: 100%">
+										</div>
+										<div class="col-md-8">
+											<h3>¿Por qué lo hacemos?</h3>
+											<p align="justify">Somos una agrupación que trabaja por y para la Universidad Simón Bolívar, con el fin de aportar todos nuestros conocimientos en la creación y mejora de los proyectos web en los que está involucrada nuestra casa de estudios. Además, esto nos permite desarrollar nuestras habilidades como profesionales y prepararnos para el campo laboral, paralelamente a nuestra formación académica.</p>
+										</div>
+									</div>
+									
+									
+								</div>
+							</article>
+						</main>
+					</div>
+				</div>
+	      	</div>
+		</div>
+
+		<div class="fit-fixed grid-row" align="center">
+			<article class="grid-col-8">
+	  			<br><br><h2 align="center">Ayúdanos a trabajar por la USB</h2>
+	  			<p align="center">¿Quieres unirte a nuestro equipo? Ingresa <a href="membresia.html" class="cta">aquí</a>.</p>
+				
+					<img src="static/img/usb.jpg" style="width: 14%" align="center">
+				
+			</article>
+					
+		</div>
 	</div>
-	<!-- ./first-content:hero -->
+	<!-- ./main-content -->
 
 	<!-- footer -->
-	<footer class="page-footer font-small blue">
+	<footer class="page-footer font-small blue pt-4 mt-4">
 
     <div class="py-1 text-center text-white bg-red">
     </div>
@@ -79,7 +132,6 @@
 	              <strong>Devlab</strong>
 	          </h6>
 	          <hr class="bg-white accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-
 	          <p>Grupo de desarrollo de aplicaciones bajo nuevas tecnologías web, Android y iOS. Conócenos.</p>
 	      </div>
 				<!-- ./about-columnn -->
