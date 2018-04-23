@@ -15,9 +15,7 @@
 
 		<!-- Base CSS -->
 		<link rel="stylesheet" href="static/css/base.css">
-
-		<!-- Index CSS -->
-		<link rel="stylesheet" href="static/css/index.css">
+		<link rel="stylesheet" href="static/css/membresia.css">
 
 		<title>Devlab</title>
 	</head>
@@ -35,8 +33,8 @@
 
 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	    <ul class="navbar-nav ml-auto">
- 	      <li class="nav-item active">
-	        <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+ 	      <li class="nav-item">
+	        <a class="nav-link" href="index.html">Inicio</a>
 	      </li>
 	      <li class="nav-item">
 	        <a class="nav-link" href="proyectos.html">Proyectos</a>
@@ -45,7 +43,7 @@
 	        <a class="nav-link" href="nosotros.html">Nosotros</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="membresia.html">Membresía</a>
+	        <a class="nav-link active" href="membresia.html">Membresía<span class="sr-only">(current)</span></a>
 	      </li>
 	      <li class="nav-item">
 	        <a class="nav-link" href="#">Contacto</a>
@@ -55,17 +53,68 @@
 	</nav>
 	<!-- ./navbar -->
 
-	<!-- first-content:hero -->
-	<div class="hero-image">
-	  <div class="hero-text">
-	    <p>Somos una agrupación de la Universidad Simón Bolívar que apuesta por la innovación</p>
-	    <button>Hire me</button>
-	  </div>
+	<!-- main-content -->
+	<div class="container-fluid" style="height:100% width: 70%">    
+        <div id="main" style="text-align:center">  
+            <header>
+            	<br>
+                <h1 class="article-title" style="font-weight:bold">¡Forma parte de nuestro equipo!</h1><br>
+            </header> 
+
+            <div id="center" class="row">
+            	<div class="col-sm-6" align="center">
+					<img id="img2" src="static/img/icons.jpg">
+				</div>
+            	<div class="col-sm-6">
+            		<p align="justify">No importa que seas de otra carrera distinta a Ingeniería de Computación, cualquiera puede pertenecer a nuestra agrupación, solo se requiere de los ánimos, el conocimiento y la creatividad necesaria para poder crear proyectos excelentes :)</p>
+            		<p align="justify">Sin embargo, en nuestro proceso de admisión, requerimos a nuestros futuros miembros conocimientos referentes a lo siguiente:
+            		</p>
+            	</div>
+            </div>
+            
+			
+            <div class="row">
+            	<div class="col-lg-6" style="border-right: 1px solid #ccc;">
+            		<img id="img3" src="static/img/web1.png">
+            		<p align="center" style="font-weight:bold">¿Qué es la WWW, el Internet, desarrollo Front-End, Back-End, Servidores, Frameworks?</p>
+            		<p align="justify">Estos son unos de los conocimientos básicos que cualquier aspirante a desarrollador debería conocer antes de comenzar a programar. Entender el entorno o ambiente de trabajo, como las diferentes tecnologías se comunican entre sí, etc.</p>
+            	</div>
+            	<div class="col-lg-6">
+            		<img id="img3" src="static/img/web2.png">
+            		<p align="center" style="font-weight:bold">HTML, CSS, Javascript</p>
+            		<p align="justify">Estas tres tecnologías son fundamentales a la hora de construir el diseño de un sitio web. HTML otorga estructura, CSS una vista y Javascript dinamismo. En nuestro proceso de admisión hacemos mucho enfasis en lograr un buen manejo de HTML, CSS y JS.</p>
+            	</div>
+            </div>
+            <div class="row">
+            	<div class="col-lg-6" style="border-right: 1px solid #ccc;">
+            		<img id="img3" src="static/img/web3.jpg">
+            		<p align="center" style="font-weight:bold">Git y Github</p>
+            		<p align="justify">Como nuestros proyectos se realizan en equipo se necesita una coordinación y organización de los códigos y archivos que se van creando. El sistema de control de versiones Git nos permite lograr eso.</p>
+            	</div>
+            	<div class="col-lg-6">
+            		<img id="img3" src="static/img/web4.png">
+            		<p align="center" style="font-weight:bold">Diseño Responsive</p>
+            		<p align="justify">En la actualidad, la mayoría de los usuarios navegan las páginas web desde sus celulares o tablets, poniendo entonces como prioridad diseñar el sitio web de manera tal que se adapte a distintos tamaños y resoluciones de pantallas.</p>
+            	</div>
+            </div>
+
+		</div>
+
+		<div class="fit-fixed grid-row" align="center">
+			<article class="grid-col-8">
+	  			<br><br><h2 align="center">Ayúdanos a trabajar por la USB</h2>
+	  			<p align="center">¿Quieres unirte a nuestro equipo? Ingresa <a href="membresia.html" class="cta">aquí</a>.</p>
+				
+					<img src="static/img/usb.jpg" style="width: 14%" align="center">
+				
+			</article>
+					
+		</div>
 	</div>
-	<!-- ./first-content:hero -->
+	<!-- ./main-content -->
 
 	<!-- footer -->
-	<footer class="page-footer font-small blue">
+	<footer class="page-footer font-small blue pt-4 mt-4">
 
     <div class="py-1 text-center text-white bg-red">
     </div>
@@ -79,7 +128,6 @@
 	              <strong>Devlab</strong>
 	          </h6>
 	          <hr class="bg-white accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-
 	          <p>Grupo de desarrollo de aplicaciones bajo nuevas tecnologías web, Android y iOS. Conócenos.</p>
 	      </div>
 				<!-- ./about-columnn -->

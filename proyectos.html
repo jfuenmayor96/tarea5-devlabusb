@@ -15,9 +15,7 @@
 
 		<!-- Base CSS -->
 		<link rel="stylesheet" href="static/css/base.css">
-
-		<!-- Index CSS -->
-		<link rel="stylesheet" href="static/css/index.css">
+		<link rel="stylesheet" href="static/css/proyectos.css">
 
 		<title>Devlab</title>
 	</head>
@@ -35,11 +33,11 @@
 
 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	    <ul class="navbar-nav ml-auto">
- 	      <li class="nav-item active">
-	        <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+ 	      <li class="nav-item">
+	        <a class="nav-link" href="index.html">Inicio</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="proyectos.html">Proyectos</a>
+	        <a class="nav-link active" href="proyectos.html">Proyectos<span class="sr-only">(current)</span></a>
 	      </li>
 	      <li class="nav-item">
 	        <a class="nav-link" href="nosotros.html">Nosotros</a>
@@ -55,17 +53,39 @@
 	</nav>
 	<!-- ./navbar -->
 
-	<!-- first-content:hero -->
-	<div class="hero-image">
-	  <div class="hero-text">
-	    <p>Somos una agrupación de la Universidad Simón Bolívar que apuesta por la innovación</p>
-	    <button>Hire me</button>
-	  </div>
+	<!-- main-content -->
+	<div class="container-fluid" style="height:100% width: 70%">    
+        <div id="main" style="text-align:center">  
+            <header>
+            	<br>
+                <h1 class="article-title" style="font-weight:bold">Proyectos</h1><br>
+            </header> 
+
+            <div id="center" class="row">
+            	<div class="col-sm-6" align="center">
+					<img id="img2" src="static/img/proyectos.png">
+				</div>
+            	<div class="col-sm-6">
+            		<p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam convallis gravida sapien non pharetra. Curabitur vulputate consequat enim et pellentesque. Aenean suscipit, ex elementum tempus bibendum, massa ligula dictum risus, dapibus pharetra urna sapien id lectus. Sed eget varius ligula, ut rutrum tortor. Aenean volutpat ligula nisi, nec ultricies nisl commodo nec. Integer condimentum non dui nec gravida. Maecenas a ultrices massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque ornare arcu nulla, sed faucibus ex malesuada vel. Integer sit amet faucibus orci. Integer semper lacus id dui ultricies, quis posuere urna aliquet.</p>
+            	</div>
+            </div>
+		</div>
+
+		<div class="fit-fixed grid-row" align="center">
+			<article class="grid-col-8">
+	  			<br><br><h2 align="center">Ayúdanos a trabajar por la USB</h2>
+	  			<p align="center">¿Quieres unirte a nuestro equipo? Ingresa <a href="membresia.html" class="cta">aquí</a>.</p>
+				
+					<img src="static/img/usb.jpg" style="width: 14%" align="center">
+				
+			</article>
+					
+		</div>
 	</div>
-	<!-- ./first-content:hero -->
+	<!-- ./main-content -->
 
 	<!-- footer -->
-	<footer class="page-footer font-small blue">
+	<footer class="page-footer font-small blue pt-4 mt-4">
 
     <div class="py-1 text-center text-white bg-red">
     </div>
@@ -79,7 +99,6 @@
 	              <strong>Devlab</strong>
 	          </h6>
 	          <hr class="bg-white accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-
 	          <p>Grupo de desarrollo de aplicaciones bajo nuevas tecnologías web, Android y iOS. Conócenos.</p>
 	      </div>
 				<!-- ./about-columnn -->
