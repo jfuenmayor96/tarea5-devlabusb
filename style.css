@@ -49,6 +49,7 @@ body{
 #title{
 	position:absolute;
 	top:35%;
+	min-width: auto;
 	width:50vw;
 	text-align: center;
 }
@@ -61,4 +62,28 @@ body{
 
 #call-to-action{
 	text-transform: uppercase;
+}
+
+@media screen and (max-width: 991px){
+	#navbar {
+		background-color:#192a56;
+	}
+
+	#navbar .navbar-toggler{
+		margin-right:10px;
+	}
+
+	#title{
+		width:100vw;
+	}
+
+	#title h1{
+		font-size:108px;
+	}
+}
+
+@media screen and (max-width: 767px){
+	#title h1{
+		font-size:72px;
+	}
 }
