@@ -1,0 +1,64 @@
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+#home {
+	height:100vh;
+	background: url('./img/background.jpg');
+	background-size: cover;
+	background-position: right;
+	position:relative;
+}
+
+#navbar {
+	background-color: rgba(0, 0, 0, 0);
+	padding:0;
+}
+
+#navbar .navbar-brand{
+	color: #fff;
+	font-family: 'Ubuntu', sans-serif;
+	font-size:32px;
+	visibility: hidden;
+}
+
+#navbar .nav-link{
+	color:#fff;
+	font-weight: normal;
+	font-size:20px;
+}
+
+#navbar .nav-item{
+	padding: 5px 20px 8px;
+	transition: background .5s;
+}
+
+#navbar .nav-item:hover{
+	background-color: rgba(0, 0, 0, .4);
+}
+
+.overlay{
+	position: absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color: rgba(0,0,0,0.1)
+}
+
+#title{
+	position:absolute;
+	top:35%;
+	width:50vw;
+	text-align: center;
+}
+
+#title h1 {
+	color: #fff;
+	font-family: 'Ubuntu', sans-serif;
+	font-size:144px;
+}
+
+#call-to-action{
+	text-transform: uppercase;
+}
