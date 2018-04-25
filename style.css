@@ -107,6 +107,7 @@ body{
 #about .grid .text p{
 	font-size: 18px;
 	margin-bottom:0;
+	text-align: justify;
 }
 
 #about .grid .image{
@@ -126,8 +127,8 @@ body{
 }
 
 #about .grid .image img{
-	max-height:250px;
-	max-width:250px;
+	height:250px;
+	width:250px;
 }
 
 @media screen and (max-width: 991px){
@@ -150,10 +151,33 @@ body{
 	#title h1{
 		font-size:108px;
 	}
+
+	#about h2 {
+		font-size: 54px;
+	}
+
+	#about .grid{
+		width: 85vw;
+		grid-column-gap: 0;
+	}
+
+	#about .grid .text h3{
+		font-size:36px;
+	}
+
+	#about .grid .image img{
+		width: 200px;
+		height: 200px;
+	}
+
 }
 
 @media screen and (max-width: 767px){
 	#title h1{
 		font-size:72px;
+	}
+
+	#about .grid{
+		grid-template-columns: 1fr;
 	}
 }
