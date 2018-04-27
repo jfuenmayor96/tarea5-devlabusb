@@ -1,80 +1,84 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <title>DevLab</title>
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Lato|Ubuntu:500" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-  <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark">
-    <a id="brand" class="navbar-brand" href="#">DevLab</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <head>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Sobre Nosotros</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Admisión</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Proyectos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contacto</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
-  <section class="container-fluid" id="home">
-    <div class="overlay">
+    <title>Devlab</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Ubuntu:500" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+  <body>
+    
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <a class="navbar-brand ml-3" href="#">DevLab</a>
+      <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            Inicio
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Admisión</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="home" class="container-fluid">
+      <div class="overlay">
+      </div>
       <div id="title">
         <h1>DevLab</h1>
-        <button id="call-to-action" type="button" class="btn btn-outline-light btn-lg">Saber Más</button>
+        <button type="button" class="btn btn-outline-light btn-lg">Saber Más</button>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="container-fluid" id="about">
-    <h2>Sobre Nosotros</h2>
-    <div class="grid">
-      <figure class="image l"><img src="http://lorempixel.com/250/250/" alt="imagen"></figure>
-      <div class="text">
-        <h3>Título</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur enim sed officia ratione quasi at odio molestias incidunt nemo commodi, minima, nam itaque cum temporibus corrupti amet explicabo quis repellendus.</p>
+    <section id="about" class="container-fluid pt-3 pb-3">
+
+      <h2>Nosotros</h2>
+
+      <div class="grid mt-3">
+        <figure class="image"><img src="./img/placeholder.jpg" alt=""></figure>
+        <figure class="image"><img src="./img/placeholder.jpg" alt=""></figure>
+        <figure class="image"><img src="./img/placeholder.jpg" alt=""></figure>
+        <div class="text">
+          <h3>Titulo</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, ad?</p>
+        </div>
+        <div class="text">
+          <h3>Titulo</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, ut.</p>
+        </div>
+        <div class="text">
+          <h3>Titulo</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, expedita!</p>
+        </div>
       </div>
-      <div class="text">
-        <h3>Título</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur enim sed officia ratione quasi at odio molestias incidunt nemo commodi, minima, nam itaque cum temporibus corrupti amet explicabo quis repellendus.</p>
-      </div>
-      <figure class="image r"><img src="http://lorempixel.com/250/250/" alt="imagen"></figure>
-      <figure class="image l"><img src="http://lorempixel.com/250/250/" alt="imagen"></figure>
-      <div class="text">
-        <h3>Título</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur enim sed officia ratione quasi at odio molestias incidunt nemo commodi, minima, nam itaque cum temporibus corrupti amet explicabo quis repellendus.</p>
-      </div>
-      <div class="text">
-        <h3>Título</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur enim sed officia ratione quasi at odio molestias incidunt nemo commodi, minima, nam itaque cum temporibus corrupti amet explicabo quis repellendus.</p>
-      </div>
-      <figure class="image r"><img src="http://lorempixel.com/250/250/" alt="imagen"></figure>
-    </div>
-  </section>
-  
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-  <script src="./scripts.js"></script>
-</body>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+  </body>
+
 </html>
