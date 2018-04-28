@@ -1,3 +1,3 @@
-# No está terminado, lo seguiré actualizando, probablemente lo termino para el sábado
+# Faltan las secciones de admisión y contacto, pero pueden considerarlo terminado mas o menos.
 
-Cosas por hacer: cambiar de desktop-first a mobile-first 
+Contacto en un simple formulario y las redes sociales

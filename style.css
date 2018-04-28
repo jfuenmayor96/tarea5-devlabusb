@@ -11,11 +11,22 @@ h1, h2, h3, h4, h5, h6{
   background-color: #192a56;
   padding-left:0;
   padding-right:0;
+  font-size:18px;
+}
+
+#navbar .navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight:bold;
 }
 
 #navbar .nav-item{
-  padding: 10px;
+  padding: 15px;
   color:white;
+}
+
+#navbar .nav-item:hover{
+  background-color:rgba(255, 255, 255, .1);
+  cursor:pointer;
 }
 
 #navbar .nav-link{
@@ -33,9 +44,6 @@ h1, h2, h3, h4, h5, h6{
   background-position: right;
   height: 100vh;
   position:relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 #home .overlay {
@@ -47,13 +55,21 @@ h1, h2, h3, h4, h5, h6{
   right:0;
 }
 
+#home .helper{
+  height:100%;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #home #title {
   text-align: center;
   z-index:10;
 }
 
 #home #title h1{
-  font-size:64px;
+  font-size:78px;
   color:white;
 }
 
@@ -69,8 +85,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #about h2{
-  text-align:center;
-  font-size: 48px;
+  font-size: 60px;
 }
 
 #about h3{
@@ -81,11 +96,18 @@ h1, h2, h3, h4, h5, h6{
   display: grid;
   grid-template-columns: 250px;
   grid-row-gap:10px;
-  text-align:center;
 }
 
-#about figure{
+#about .text p{
+  text-align: justify;
+}
+
+#about .image{
   margin:0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #about .image:first-of-type{
@@ -166,6 +188,10 @@ h1, h2, h3, h4, h5, h6{
   margin-bottom:10px;
 }
 
+#projects .project .project-image:hover{
+  cursor:pointer;
+}
+
 #projects .project .project-image:hover a{
   visibility: visible;
 }
@@ -209,12 +235,23 @@ h1, h2, h3, h4, h5, h6{
   #projects .project .project-card{
     display:none;
   }
+
+  #home #title h1{
+    font-size:96px;
+  }
+
+  #about .grid{
+  display: grid;
+  grid-template-columns: 80vw;
+  grid-row-gap:10px;
+}
 }
 
 @media (min-width:768px){
   #about .grid{
     width:95vw;
     grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 4vw;
   }
 
   #about .image:first-of-type{
@@ -237,6 +274,15 @@ h1, h2, h3, h4, h5, h6{
     grid-column: span 2;
     grid-row: span 1;
   }
+  
+  #about .text:first-of-type h3, #about .text:nth-of-type(3) h3{
+    text-align:right;
+  }
+
+  #about .text:nth-of-type(2) h3{
+    text-align:left;
+  }
+
   #about .text:nth-of-type(2) {
     grid-column: span 2;
     grid-row: span 1;
@@ -263,14 +309,63 @@ h1, h2, h3, h4, h5, h6{
   #bout .text p{
     margin:0;
   }
-}
 
-@media (min-width:992px){
+  #home #title h1{
+    font-size:112px;
+    color:white;
+  }
+
   #projects .grid{
     grid-template-columns: repeat(3, 1fr);
   }
 
   #projects .project .project-image{
-    height:30vw;
+    width:100%;
+    height:33vw;
   }
+}
+
+@media (min-width:992px){
+  #projects .grid{
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  #projects .project .project-image{
+    height:25vw;
+  }
+
+  #home .helper{
+    width:50%;
+  }
+
+  #about .grid{
+    grid-template-columns: repeat(3, 250px);
+    width:auto;
+  }
+
+  #navbar {
+    background-color:rgba(0,0,0,0);
+    transition:background .5s;
+  }
+
+  #navbar .navbar-brand{
+    opacity: 0;
+    transition:opacity .5s;
+  }
+}
+
+@media (min-width:1200px){
+  #projects .grid{
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  #projects .project .project-image{
+    height: 17vw;
+  }
+
+  #home #title h1{
+    font-size:144px;
+    color:white;
+  }
+
 }
